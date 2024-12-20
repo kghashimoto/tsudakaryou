@@ -96,7 +96,7 @@ header:after{
 .header_main >div>a{
 	color:#8cc63e;
 	font-size:1.5rem;
-	text-shadow:0 0 4px rgba(0,0,0,0.3);
+	text-shadow:0 0 4px rgba(0,0,0,0.1);
 	text-decoration:none;
 	transform:translateY(-3px);
 

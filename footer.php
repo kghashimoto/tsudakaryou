@@ -1,10 +1,10 @@
 <!--test -->
 <footer>
 <div>
-<a href="#">>>決算書及び事業計画書及び社会福祉法人現状報告書</a><br>
-<a href="#">>>求人情報</a>
-<a href="#">>>プライバシーポリシー</a>
-<a href="#">>>サイトのご利用について</a>
+<a href="/summary#p5">>>決算書及び事業計画書及び社会福祉法人現状報告書</a><br>
+<a href="/recruit">>>求人情報</a>
+<a href="/privacy">>>プライバシーポリシー</a>
+<a href="/use">>>サイトのご利用について</a>
 	</div>
 
 <div class="copyright">

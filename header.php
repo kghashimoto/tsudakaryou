@@ -18,6 +18,22 @@ add_action( 'wp_enqueue_scripts', function(){
 add_action( 'wp_enqueue_scripts', function(){
   wp_enqueue_style( 'footer', get_template_directory_uri() . '/css/footer.css',array(),'1' );
 } );
+
+add_action('wp_enqueue_scripts', function(){
+  wp_enqueue_style('header_sp', get_template_directory_uri() . '/css/header-sp.css',array(),'1','(max-width:950px)');
+
+});
+add_action('wp_enqueue_scripts', function(){
+  wp_enqueue_style('common_sp', get_template_directory_uri() . '/css/common-sp.css',array(),'1','(max-width:950px)');
+
+});
+	
+add_action('wp_enqueue_scripts', function(){
+  wp_enqueue_style('footer_sp', get_template_directory_uri() . '/css/footer-sp.css',array(),'1','(max-width:950px)');
+
+});
+
+
 ?>
 
 <?php wp_head(); ?>
@@ -31,8 +47,8 @@ add_action( 'wp_enqueue_scripts', function(){
 			<div class="header_top_right">
 
 		<ul>
-<li><a href="#">サイトマップ</a></li>
-<li><a href="#">交通アクセス</a></li>
+<li><a href="sitemap">サイトマップ</a></li>
+<li><a href="access">交通アクセス</a></li>
 </ul></div>
     　</div>
     
